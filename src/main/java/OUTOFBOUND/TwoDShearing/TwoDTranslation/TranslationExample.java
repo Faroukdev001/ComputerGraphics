@@ -33,7 +33,7 @@ public class TranslationExample {
         points.add(new Point2D.Double(20, 10));
         points.add(new Point2D.Double(10, 20));
 
-        // Translation factors
+        // OUTOFBOUND.TwoDShearing.Translation factors
         double tx = 5;
         double ty = 10;
 
@@ -62,10 +62,10 @@ public class TranslationExample {
 
         // Create chart
         JFreeChart chart = ChartFactory.createXYLineChart(
-                "2D Translation", "X", "Y", dataset, PlotOrientation.VERTICAL, true, true, false);
+                "2D OUTOFBOUND.TwoDShearing.Translation", "X", "Y", dataset, PlotOrientation.VERTICAL, true, true, false);
 
         // Display chart in a frame
-        JFrame frame = new JFrame("2D Translation");
+        JFrame frame = new JFrame("2D OUTOFBOUND.TwoDShearing.Translation");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(new ChartPanel(chart));
         frame.pack();

@@ -40,7 +40,7 @@ class TranslationExample1 extends JPanel {
         points.add(new Point2D.Double(200, 50));
         points.add(new Point2D.Double(350, 200));
 
-        // Translation factors
+        // OUTOFBOUND.TwoDShearing.Translation factors
         double tx = 50;
         double ty = 100;
 
@@ -69,7 +69,7 @@ class TranslationExample1 extends JPanel {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("2D Translation");
+        JFrame frame = new JFrame("2D OUTOFBOUND.TwoDShearing.Translation");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(new TranslationExample1());
         frame.setSize(500, 500); // increased size

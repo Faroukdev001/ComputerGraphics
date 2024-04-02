@@ -73,6 +73,13 @@
 <!--            <version>29-EOWS-p5</version>-->
 <!--        </dependency>-->
 
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.6.1</version> <!-- You can adjust the version if needed -->
+        </dependency>
+
+
 
 
     </dependencies>

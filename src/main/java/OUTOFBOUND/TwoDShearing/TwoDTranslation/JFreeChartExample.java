@@ -16,7 +16,7 @@ public class JFreeChartExample extends JFrame {
     }
 
     private void initUI() {
-        setTitle("Translation Graph");
+        setTitle("OUTOFBOUND.TwoDShearing.Translation Graph");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 500);
         setLocationRelativeTo(null);
@@ -55,7 +55,7 @@ public class JFreeChartExample extends JFrame {
 
     private JFreeChart createChart(XYSeriesCollection dataset) {
         return ChartFactory.createXYLineChart(
-                "Translation Graph",
+                "OUTOFBOUND.TwoDShearing.Translation Graph",
                 "X",
                 "Y",
                 dataset,
