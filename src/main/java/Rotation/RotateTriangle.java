@@ -1,4 +1,4 @@
-package org.example.javafx._3DTransformations;
+package Rotation;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;
@@ -11,6 +11,8 @@ public class RotateTriangle extends JPanel {
     private static final int HEIGHT = 400;
     private static final int TRIANGLE_SIZE = 200;
     private double rotationAngle = 30;
+
+
 
     public RotateTriangle() {
         setPreferredSize(new Dimension(WIDTH, HEIGHT));
@@ -53,6 +55,7 @@ public class RotateTriangle extends JPanel {
         triangle.addPoint(size, size);
         g2d.fillPolygon(triangle);
     }
+
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
